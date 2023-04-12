@@ -1,0 +1,59 @@
+body{
+    background-image: url('blur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    width :100%;
+    height:auto;
+}
+.calculator{
+    border-color:white;
+    border-radius: 16px;
+    background-color:rgba(221, 204, 204,0.7);
+    position: absolute;
+    width:350px;
+    height:600px;
+    margin:10px 440px;
+    display: block;
+    box-shadow: 0 4px  30px (rgba(241, 225, 225, 0.9));
+    backdrop-filter: blur(5px);
+}
+.calculator-screen{
+    width:98%;
+    height:150px;
+    background-color:transparent;
+    color:black;
+    font-size: larger;
+}
+.operator{
+    color:rgb(64, 80, 223);
+}
+button{
+    display: inline-block;
+    width: 73px;
+    height:50px;
+    margin: 10px 20px;
+    border-radius: 60px;
+    font-size:19px;
+    background-color: white;
+    border-color:white ;
+}
+.equal-sign-operator{
+    background-color: rgb(64, 80, 223);
+    border-color: rgb(56, 73, 228) ;
+    color:white;
+    font:bold;
+}
+.all-clear{
+    background-color: rgb(204, 50, 50);
+    border-color: rgb(170, 33, 33);
+    color:white;
+    font:bold;
+
+}
+.calcutator-keys{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:20px;
+}
